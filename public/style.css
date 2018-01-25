@@ -89,11 +89,13 @@ a:visited {
   flex-flow: row;
   align-items: baseline;
 }
-
 .screenshots {
 
 }
-
 .screenshot {
   width: 80px;
+  transition: 0.5s;
+}
+.screenshot:hover {
+  width: 360px;
 }
