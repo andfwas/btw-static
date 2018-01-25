@@ -1,0 +1,99 @@
+main {
+  width: 1080px;
+  margin: auto;
+  display: flex;
+
+}
+.main {
+  width: 100%;
+}
+.main-head {
+  background-color: red;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin: 21px 0 21px 0;
+  font-size: 14px;
+}
+.main-img {
+  width: 100%;
+  /* background: radial-gradient(white 40%, lightgrey); */
+  border-radius: 20px;
+}
+.main-logo {
+  width: 60%;
+  padding: 21px;
+  margin-left: 20%;
+}
+.left-bar {
+  background-color: #035460;
+}
+.logo {
+  width: 90%;
+  margin: 20px 5% 20px;
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black
+}
+.left-center {
+  display: flex;
+  justify-content: space-around;
+}
+.left-title {
+  margin-left: 21px;
+  color: #FFF;
+}
+
+.left-links {
+  display: flex;
+  flex-flow: column;
+  align-items: left;
+  margin-left: 21px;
+}
+#logo {
+  width: 200px;
+  margin: 10px 21px 10px 21px;
+  width: 230px;
+}
+a {
+  color: #DADADA;
+}
+a:hover {
+  transition: 0.5s;
+  color: #FEDCBA;
+  text-decoration: underline;
+}
+a:visited {
+  color: #9CEDF9;
+  text-decoration: none;
+}
+.the-dude {
+  width: 310px;
+}
+.main-link-left {
+  color: black;
+}
+.main-link-right {
+  float: right;
+}
+.main-link:hover {
+  transition: 0.5s;
+  color: #FFF;
+  text-decoration: underline;
+}
+.main-component {
+  width: 100%;
+}
+.star {
+  display: flex;
+  flex-flow: row;
+  align-items: baseline;
+}
+
+.screenshots {
+
+}
+
+.screenshot {
+  width: 80px;
+}
